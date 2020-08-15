@@ -1,5 +1,5 @@
 ## Browser route tab
-<img src="https://github.com/Qiugu-He/20-React-App/blob/master/02-Markdown_Editor/Markdown_Editor.png" alt="alt text" width="100%" height="100%">
+<img src="https://github.com/Qiugu-He/20-React-App/blob/master/03-Highlight_Tab/Tab.png" alt="alt text" width="100%" height="100%">
 
 This small app let me practiced with
 * react hook (etc. useState)
