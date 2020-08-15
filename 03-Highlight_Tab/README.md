@@ -4,7 +4,7 @@
 This small app let me practiced with
 * react hook (etc. useState)
 * react-router-dom (Router, NavLink, Switch, and Route)
-* Create re-useable react Component (etc. Tab)
+* Re-useable component (etc. Tab)
 
 ### File Structure:
 ```
