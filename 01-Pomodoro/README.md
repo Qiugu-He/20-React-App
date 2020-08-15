@@ -1,3 +1,4 @@
+<img src="https://github.com/Qiugu-He/Blog/blob/master/HomePage.png" alt="alt text" width="100%" height="100%">
 ## Pomodoro: Count-Down Timer
 
 This small app is primaly let me practiced and get familair with react hook by built a Count down timer
