@@ -1,5 +1,5 @@
 ## Paper, Rock and Scissors
-<img src="https://github.com/Qiugu-He/20-React-App/blob/master/03-Highlight_Tab/Tab.png" alt="alt text" width="100%" height="100%">
+<img src="https://github.com/Qiugu-He/20-React-App/blob/master/04-Paper_Rock_Scissors/game.png" alt="alt text" width="100%" height="100%">
 
 This small app let me practiced with *react hook (i.e. useState, useEffet)*
 
