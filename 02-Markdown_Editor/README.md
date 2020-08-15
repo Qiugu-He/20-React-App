@@ -16,3 +16,14 @@ every time type on this onChange will set the text value in this textarea
     setMarkdown(e.target.value);
   }
 ```
+
+### React Markdown package:
+```
+import ReactMarkdown from 'react-markdown';
+
+```
+
+## How to Run :
+- npm install<br>
+- npm run
+- npm build (For production)
