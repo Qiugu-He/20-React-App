@@ -34,7 +34,6 @@
 ### React Hook - useRef(): 
 * In a state variable: useState or useReducer. Updates in state variables will cause a re-render of the component.
 * In a ref: Equivalent to instance variables in class components. Mutating the .current property won’t cause a re-render.
-
 * useRef(): A function that returns a mutable ref object whose .current property is initialized with the passed argument (initialValue).
 The returned object will persist for the full lifetime of the component.
 lets us create mutable variables inside functional components.
