@@ -49,9 +49,6 @@ This small app is primarily let me practiced react hooks:
     }, [x, y]); // effectr be called when x, y changes
 
     //....
-```
-
-```
 
 ## How to Run :
 - npm install<br>
