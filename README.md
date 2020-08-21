@@ -15,6 +15,12 @@
 ### [05-Moving Link](https://github.com/Qiugu-He/20-React-App/tree/master/05-Moving_Link)
 <img src="https://github.com/Qiugu-He/20-React-App/blob/master/05-Moving_Link/MoveLink.png" alt="alt text" width="70%" height="70%">
 
+### [06-Infinit Image Gallery](https://github.com/Qiugu-He/20-React-App/tree/master/06-Infinit_Image_Gallery)
+<img src="https://github.com/Qiugu-He/20-React-App/blob/master/06-Infinit_Image_Gallery/pic.png" alt="alt text" width="70%" height="70%">
+
+### [07-Trivia_Game](https://github.com/Qiugu-He/20-React-App/tree/master/07-Trivia_Game)
+<img src="https://github.com/Qiugu-He/20-React-App/blob/master/07-Trivia_Game/game.png" alt="alt text" width="70%" height="70%">
+
 ## Summary key notes: (Will keep updating until finished 20 Apps)
 ### React Hook - useState():
 * Add state in functional component -> create state varibale, store the current value, any time it changed, react will go ahead and re-render this

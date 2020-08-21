@@ -1,5 +1,11 @@
-# Unsplash Image Gallery
+## Infinit Image Gallery
+<img src="https://github.com/Qiugu-He/20-React-App/blob/master/06-Infinit_Image_Gallery/pic.png" alt="alt text" width="100%" height="100%">
 
-**Important**: Make sure to add your own [Unsplash API Key](https://unsplash.com/developers) to a `.env` file.
+This small app is let me practiced with: 
+* <b>Hooks: useState, useEffect</b>
+* <b>Fetch Data from external API</b>
 
-- Copy `.env.example` to `.env`
+## How to Run :
+- npm install<br>
+- npm start
+- npm build (For production)
