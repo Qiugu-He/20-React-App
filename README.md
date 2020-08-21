@@ -1,5 +1,9 @@
 ## Build 20 Small React Apps
 
+[Key Notes Summaries](#Key-Notes-Summary:) 
+
+Made by Qiugu.
+
 ### [01-Pomodoro: Count-Down Timer](https://github.com/Qiugu-He/20-React-App/tree/master/01-Pomodoro)
 <img src="https://github.com/Qiugu-He/20-React-App/blob/master/01-Pomodoro/timer.png" alt="alt text" width="70%" height="70%">
 
@@ -22,8 +26,8 @@
 <img src="https://github.com/Qiugu-He/20-React-App/blob/master/07-Trivia_Game/game.png" alt="alt text" width="70%" height="70%">
 
 
-
-## Key Notes Summary: (Will keep updating until finished 20 Apps)
+## Key Notes Summary: 
+(Updating...)
 ### React Hook - useState():
 * Add state in functional component -> create state varibale, store the current value, any time it changed, react will re-render this
 * 2 elements inside, a pointer to state, second is a state update function
