@@ -1,7 +1,5 @@
 ## Build 20 Small React Apps
 
-[Key Notes Summaries](#Key-Notes-Summary:) 
-
 Made by Qiugu.
 
 ### [01-Pomodoro: Count-Down Timer](https://github.com/Qiugu-He/20-React-App/tree/master/01-Pomodoro)
