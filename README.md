@@ -21,20 +21,39 @@
 ### [07-Trivia_Game](https://github.com/Qiugu-He/20-React-App/tree/master/07-Trivia_Game)
 <img src="https://github.com/Qiugu-He/20-React-App/blob/master/07-Trivia_Game/game.png" alt="alt text" width="70%" height="70%">
 
-## Summary key notes: (Will keep updating until finished 20 Apps)
+
+
+## Key Notes Summary: (Will keep updating until finished 20 Apps)
 ### React Hook - useState():
-* Add state in functional component -> create state varibale, store the current value, any time it changed, react will go ahead and re-render this
+* Add state in functional component -> create state varibale, store the current value, any time it changed, react will re-render this
 * 2 elements inside, a pointer to state, second is a state update function
 * If use the same value as the current state to update the state, React won’t trigger a re-render
 * If use the previous value to update state, you must pass a function that receives the previous value and returns an updated value
-```
-    for example, setMessage(previousVal => previousVal + currentVal)
+```JavaScript
+    //E.g. state variable used from App 07-Trivia_Game: 
+    const[correctScore, setCorrectScore] = useState(0);
 ```
 
 ### React Hook - useEffect(): 
-* after every render, the callback passed to this useEffect function is called
-* By default, it runs after every render but by customize it with the second param of the useEffect function -> The second argument accepts an array that allow us to tell React when we want our effect to be called.
+* After every render, the callback passed to this useEffect function is called
+* By default, it runs after every render but by customize it with the second param of the useEffect function. The second argument accepts an array that allow us to tell React when we want our effect to be called.
 * After a render and before calling an effect, React will compare the array of values defined in the second parameter with the array defined in the same effect from the previous render. React will only call the effect when any value of the array has changed since the previous render.
+```JavaScript
+    /* E.g.
+       useEffect from App 07-Trivia_Game: Every time getQuestion & selectedCategory changed, useEffect will be called
+    */
+      useEffect(()=>{
+        setIsCorrect(null);
+        let url = 'https://opentdb.com/api.php?amount=1';
+        if(selectedCateogry !== 'any')
+        url += `&category=${selectedCateogry}`;
+
+        fetch(url)
+        //since we using fetch, so have to warp data
+        .then((res) => res.json())
+        .then((data) => setQuestion(data.results[0]));
+    }, [getQuestion, selectedCateogry]); 
+```
 
 
 ### React Hook - useRef(): 
